@@ -4,7 +4,7 @@ from datetime import datetime
 import json, re
 
 # --
-COHERE_API_KEY = "IDlfxdy11paDxht8zQKuLQZkR61dhaPRTwdNzkpF"
+COHERE_API_KEY = ""#replace with your api key
 co = cohere.Client(COHERE_API_KEY)
 
 
@@ -95,3 +95,4 @@ if st.session_state.candidate and not st.session_state.finished:
             st.write("✅ We’ve recorded your responses. Our team will review your profile and contact you with next steps.")
     else:
         st.error("⚠️ Unable to generate questions right now. Please try again later.")
+
