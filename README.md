@@ -85,7 +85,6 @@ The application will automatically open in your browser at `http://localhost:850
   - All candidate information
   - Complete Q&A transcript
   - Interview completion statistics
-- Download summary as JSON file for records
 
 ### Step 5: Next Steps
 - Application provides clear next steps information
